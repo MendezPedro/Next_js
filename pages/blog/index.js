@@ -12,9 +12,7 @@ export default function index({ data }) {
         <div key={id}>
           <h3>
             <Link href={`/blog/${id}`}>
-              {/* <a>
-                {id} - {title}
-              </a> */}
+
               {id}
             </Link>
           </h3>
