@@ -10,7 +10,7 @@ export default function Home({game}) {
     description="Descripción de Desafío Latam"
     >
       
-      <div>
+      {/* <div>
           {
             game.map(gam => (
               <div key={gam.id}>
@@ -21,7 +21,7 @@ export default function Home({game}) {
               </div>
             ))
           }
-      </div>
+      </div> */}
 
     </Layout>
   )
