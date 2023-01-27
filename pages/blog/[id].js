@@ -1,13 +1,12 @@
-import Layout from "../../components/Layout";
 
 export default function ArticuloUno({ data }) {
   return (
-    <Layout title="Articulo 1 title" description="descripcion del titulo 1">
+    <div title="Articulo 1 title" description="descripcion del titulo 1">
       <h1>
         {data.id} - {data.title}
       </h1>
       <p>{data.body}</p>
-    </Layout>
+    </div>
   );
 }
 

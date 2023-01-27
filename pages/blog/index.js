@@ -1,9 +1,9 @@
-import Layout from "../../components/Layout";
+
 import Link from "next/link";
 
 export default function index({ data }) {
   return (
-    <Layout
+    <div
       title="Lista de post escritos por mi"
       description="descripcion de posts"
     >
@@ -21,7 +21,7 @@ export default function index({ data }) {
           <p>{body}</p>
         </div>
       ))}
-    </Layout>
+    </div>
   );
 }
 

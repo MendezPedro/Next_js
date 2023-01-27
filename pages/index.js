@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../components/Layout'
+
 
 
 export default function Home({game}) {
   return (
-    <Layout
+    <div
     title="Home | desafío Latam"
     description="Descripción de Desafío Latam"
     >
       
-      {/* <div>
+      <div>
           {
             game.map(gam => (
               <div key={gam.id}>
@@ -21,9 +21,9 @@ export default function Home({game}) {
               </div>
             ))
           }
-      </div> */}
+      </div>
 
-    </Layout>
+    </div>
   )
 }
 
