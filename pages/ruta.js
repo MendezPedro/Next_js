@@ -7,3 +7,8 @@ export default function ruta() {
     
   );
 }
+
+ruta.defaultProps = {
+  title: "Ruta",
+  description: "Descripción de Desafío Latam",
+};

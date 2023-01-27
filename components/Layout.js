@@ -12,11 +12,9 @@ export default function Layout({children,title,description}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <Navbar />
+      <Navbar/>
       
       <div className='container'>
-        <h1 className='text-primary'>Laoyut</h1>
-        
         <main>{children}</main>
       </div>
     </div>
