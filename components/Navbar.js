@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import Link from "next/link";
 import Image from 'next/image'
-import logo from "../public/img/logo-ne.png"
+import logo from "../public/images/logo-ne.png"
 
 export default function Navbar() {
 
@@ -35,7 +35,12 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link href="/blog">
-                <div className="nav-link active" href="/blog">blog</div>
+                <div className="nav-link active">blog</div>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/markdown">
+                <div className="nav-link active">markdown</div>
               </Link>
             </li>
           </ul>

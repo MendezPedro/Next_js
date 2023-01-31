@@ -6,6 +6,7 @@ import Post from '../components/Post'
 import { sortByDate } from '../utils'
 
 export default function markdown({ posts }) {
+  console.log(posts)
   return (
     <div>
       <Head>
@@ -13,7 +14,7 @@ export default function markdown({ posts }) {
       </Head>
 
       <div className='posts'>
-        {posts.map((post, index) => (
+      {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
       </div>
@@ -30,7 +31,7 @@ export async function getStaticProps() {
   const posts = files.map((filename) => {
     // Create slug
     const slug = filename.replace('.md', '')
-
+    
     // Get frontmatter
     const markdownWithMeta = fs.readFileSync(
       path.join('posts', filename),
