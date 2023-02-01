@@ -6,7 +6,7 @@ export default function Faq(props) {
   return (
     <>
       {posts.map(({ bootcamp, questions }) => (
-          <div className="container">
+          <div>
             <h3>{bootcamp}</h3>
 
             <div>

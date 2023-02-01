@@ -6,7 +6,7 @@ export default function Home(props) {
   const posts = props.data
   return (
     <>
-      <section className="container">
+      <section>
         <h1>Preguntas Técnicas de Entrevista</h1>
         <div>
           Estas son las preguntas más comúnes si estas aplicando para una

@@ -6,7 +6,7 @@ const Footer = () => {
       <footer>
         <div className="footer-logo">
           <Image
-            src={"/img/logos/logo-academia-slogan-bla.png"}
+            src={"/images/logo-academia-slogan-bla.png"}
             width={404}
             height={100}
             alt="Logo Academia Desafío Latam"
@@ -95,7 +95,7 @@ const Footer = () => {
 
                 <h3 className="mt-4">Somos OTEC</h3>
                 <Image
-                  src={"/img/logos/logo-sence.png"}
+                  src={"/images/logo-sence.png"}
                   width={288.656}
                   height={64.25}
                   alt="Logo Sence"

@@ -100,3 +100,114 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/*Footer*/
+footer {
+  background: #38353f;
+}
+
+footer .footer-logo {
+  background: #fff;
+  height: 50px;
+  text-align: center;
+}
+
+footer .footer-logo img{
+  background: white;
+  padding: 15px;
+}
+
+footer .footer-content {
+  padding: 80px 30px;
+}
+
+footer .footer-content h3 {
+font-family: Uni Neue Heavy Italic, Helvetica, Arial, sans-serif;
+font-size: 24px;
+color: #009ee3;
+margin-top: 30px;
+margin-bottom: 30px; 
+}
+
+footer .footer-content h4 {
+  font-family: Uni Neue Heavy Italic, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+
+.bla {
+  color: #fff;
+}
+footer .footer-content span {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+footer .footer-partners a.mailto {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-content .footer-menu a {
+  font-size: 18px;
+}
+footer .footer-content .footer-menu ul {
+  padding: 0;
+}
+footer .footer-content .footer-menu ul li {
+  list-style-type: none;
+}
+
+footer .footer-content .footer-menu ul li a{
+  font-family: Uni Neue Heavy Italic, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  
+}
+
+footer .footer-content .footer-menu ul li a:hover {
+  color: #009ee3;
+  text-decoration: none;
+}
+
+footer .footer-partners a:hover {
+  color: #009ee3;
+  text-decoration: none;
+}
+
+footer .dropdown-divider {
+  border: solid 1px #009ee3;
+  margin: 15px 0;
+}
+
+footer .footer-content .footer-redes {
+  margin-top: 20px;
+}
+footer .footer-content .footer-redes ul {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+footer .footer-content .footer-redes ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 30px;
+  margin-right: 10px;
+}
+footer .footer-content .footer-menu ul li a {
+  font-family: Uni Neue Heavy Italic, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+footer .footer-content .footer-redes ul li a i {
+  color: #009ee3;
+  font-size: 30px;
+}
+footer .footer-content .footer-redes ul li a i:hover {
+  color: #fff;
+  font-size: 30px;
+}

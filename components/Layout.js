@@ -15,7 +15,7 @@ export default function Layout({children,title,description}) {
       
       <Navbar/>
       
-      <div>
+      <div className='container py-5'>
         <main>{children}</main>
       </div>
 
