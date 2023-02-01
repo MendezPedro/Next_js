@@ -43,6 +43,11 @@ export default function Navbar() {
                 <div className="nav-link active">markdown</div>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/data_science">
+                <div className="nav-link active">data_science</div>
+              </Link>
+            </li>
           </ul>
         </div>
         
